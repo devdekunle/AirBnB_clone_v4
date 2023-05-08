@@ -38,7 +38,7 @@ $(function() {
             }
         },
         error: function(jqXHR, textStatus, errorThrown) {
-                $('div#api_status').css('backgroundColor', '#c20e23');
+                $('div#api_status').css('backgroundColor', '#cccccc');
             }
 
     });
